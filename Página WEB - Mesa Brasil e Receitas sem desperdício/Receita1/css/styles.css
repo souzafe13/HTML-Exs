@@ -1,0 +1,55 @@
+.bgimage{
+    background-image: url(../img/torta_espinafre.jpg);
+    padding: 400px;
+    color: black;
+    text-align: center;
+    opacity: 0.78;
+    font-size: 60px;
+    margin: 0px;
+}
+
+.bgcolor{
+    background-color: rgb(252, 228, 192);
+    border-bottom: 5px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.subtitulo{
+    margin: 10px 10px;
+}
+
+.ingredientes{
+    font-size: 20px;
+    margin: 10px;
+}
+
+.ingredientes2{
+    margin: 10px;
+    font-size: 20px;
+}
+
+.recheio{
+    margin: 10px 10px;
+}
+
+.preparo{
+    margin: 10px;
+}
+
+.paragrafo_massa{
+    font-size: 20px;
+}
+
+.paragrafo_recheio{
+    font-size: 20px;
+}
+
+.montagem_final{
+    font-size: 20px;
+}
+
+.paginas{
+    font-size: 20px;
+    text-decoration: none;
+}

@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+.titulo{
+    text-align: center;
+    padding: 10px;
+}
+
+.texto{
+    background-color: rgba(200, 255, 200, 0.658);
+    color: #000;
+    font-family: 'Quicksand', sans-serif;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+    border: 2px solid rgb(221, 219, 219);
+    text-align: justify;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.imagem, .acessibilidade{
+    padding: 20px;
+    
+}
+
+.texto2{
+    background-color: rgba(200, 255, 200, 0.658);
+    color: #000;
+    font-family: 'Quicksand', sans-serif;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+    border: 2px solid rgb(221, 219, 219);
+    text-align: justify;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.titulo2{
+    text-align: center;
+    padding: 10px;
+}
+
+.paginas{
+    font-size: 20px;
+    text-decoration: none;
+    background-color: rgba(200, 255, 200, 0.658);
+    border: 2px solid rgb(221, 219, 219);
+    border-radius: 10px;
+}
