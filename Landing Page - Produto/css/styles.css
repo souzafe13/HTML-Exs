@@ -1,0 +1,97 @@
+body{
+    background-color: white;
+}
+
+hr{
+    border-color: #FA4716;
+    border-width: 0.5px;
+}
+
+.header{
+    color: black;
+    font-family: sans-serif;
+    animation-duration: 2.5s;
+    animation-name: title;
+    text-align: center;
+}
+
+@keyframes title{
+
+from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.imagem1{
+    animation-name: imagem1;
+    animation-duration: 2.5s;
+}
+
+/* @keyframes imagem1{
+
+    from {
+        margin-left: 100%;
+        width: 300%;
+      }
+    
+      to {
+        margin-left: 0%;
+        width: 100%;
+      }
+    }
+
+.imagem2{
+    animation-name: imagem2;
+    animation-duration: 2.5s;
+}
+    
+ @keyframes imagem2{
+    
+    from {
+        margin-left: 100%;
+        width: 300%;
+        }
+        
+        to {
+        margin-left: 0%;
+        width: 100%;
+        }
+    }
+
+    .imagem3{
+        animation-name: imagem3;
+        animation-duration: 2.5s;
+    }
+    
+    @keyframes imagem3{
+    
+        from {
+            margin-left: 100%;
+            width: 300%;
+          }
+        
+          to {
+            margin-left: 0%;
+            width: 100%;
+          }
+        } */
+
+mark{
+    background-color: #FA4716;
+    
+}
+
+.texto-mark{
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 20px;
+}
+    
+
+
+    
