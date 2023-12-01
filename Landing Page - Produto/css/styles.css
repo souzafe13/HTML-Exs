@@ -31,9 +31,17 @@ from {
 }
 
 /* Imagens */
-.imagem1{
-    animation-name: imagem1;
-    animation-duration: 2.5s;
+.imagens{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  border: 1px;
+  justify-content: center;
+}
+
+.fone1, .fone2, .fone3, .fone4, .fone5, .fone6, .fone7, .fone8, .fone9{
+  height: 610px;
+  width: 610px;
 }
 
 /* Mark */
@@ -43,10 +51,10 @@ mark{
 }
 
 /* Menu */
-.menu{
+/* .menu{
   display: flex;
   flex-wrap: wrap;
-}
+} */
 
 .texto-mark{
     font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
