@@ -47,14 +47,13 @@ from {
 /* Mark */
 mark{
     background-color: #FA4716;
-    
 }
 
-/* Menu */
-/* .menu{
+.logo{
   display: flex;
-  flex-wrap: wrap;
-} */
+  justify-content: center;
+  height: 100px;
+}
 
 .texto-mark{
     font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
@@ -64,4 +63,11 @@ mark{
 /* Footer */
 .footer{
   font-size: 10px;
+}
+
+.video{
+  display: flex;
+  justify-content: center;
+  background-color: black;
+
 }
