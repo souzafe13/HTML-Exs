@@ -46,19 +46,8 @@ mark{
   padding: 10px;
   margin: 50px;
   font-size: 35px;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-@media screen and(min-width: 300px) {
-  .titulo{
-    font-size: 30px;
-  } 
-}
-
-@media screen and(max-width: 1000px) {
-  .titulo{
-    font-size: 80px;
-  }
+  font-family:var(--heading-font-family);
+  font-weight: 700;
 }
 
 .paragrafo{
@@ -78,6 +67,8 @@ mark{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 25px;
 }
+
+
 
 ul {
   list-style-type: none;
@@ -99,6 +90,7 @@ li a {
   display: block;
   color: black;
   text-align: center;
+  padding: 14px 16px;
   text-decoration: none;
   padding: 20px;
 }

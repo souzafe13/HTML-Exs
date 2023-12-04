@@ -116,4 +116,5 @@ li a:hover:not(.ativa) {
 
 .ativa {
   background-color: #FA4716;
+  font-weight: 600;
 }
