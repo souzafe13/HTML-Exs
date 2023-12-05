@@ -7,11 +7,16 @@
 }
 
 body{
-  background-color: white;
+  background: white;
   color: black;
 }
 
-a{
+html{
+  font-family: Inter, sans-serif;
+  font-weight: 500;
+}
+
+a {
   text-decoration: none;
 }
 
@@ -20,6 +25,16 @@ nav{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+}
+
+
+mark{
+  background-color: #FA4716;
 }
 
 ul {
@@ -57,6 +72,11 @@ li a:hover:not(.ativa) {
 
 .ativa {
   background-color: #FA4716;
+  font-weight: 600;
 }
 
+
+@media screen and (max-width: 500px){
+  
+}
 
